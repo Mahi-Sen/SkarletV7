@@ -1,4 +1,4 @@
-FROM python:3.10.8-slim-bookworm
+FROM python:3.10.8-slim-bullseye
 
 # Update and install dependencies
 RUN apt update && apt upgrade -y && \
