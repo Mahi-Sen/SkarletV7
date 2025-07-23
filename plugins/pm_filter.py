@@ -71,7 +71,7 @@ async def give_filter(client, message):
             try:
                 if settings['auto_ffilter']:
                     ai_search = True
-                    reply_msg = await message.reply_text(f"<b><i>Searching For {message.text} 🔍</i></b>")
+                    reply_msg = await message.reply_text(f"<b><i>sᴇᴀʀᴄʜɪɴɢ ғᴏʀ ʏᴏᴜʀ ʀᴇᴏ̨ᴜᴇsᴛ</i></b>")
                     await auto_filter(client, message.text, message, reply_msg, ai_search)
             except KeyError:
                 grpid = await active_connection(str(message.from_user.id))
@@ -79,7 +79,7 @@ async def give_filter(client, message):
                 settings = await get_settings(message.chat.id)
                 if settings['auto_ffilter']:
                     ai_search = True
-                    reply_msg = await message.reply_text(f"<b><i>Searching For {message.text} 🔍</i></b>")
+                    reply_msg = await message.reply_text(f"<b><i>sᴇᴀʀᴄʜɪɴɢ ғᴏʀ ʏᴏᴜʀ ʀᴇᴏ̨ᴜᴇsᴛ</i></b>")
                     await auto_filter(client, message.text, message, reply_msg, ai_search)
     else:
         search = message.text
@@ -1791,7 +1791,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('🧑‍💻 ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ ⚡', url=link.invite_link),
             InlineKeyboardButton("♻️ ᴠɪᴇᴡ ꜱᴛᴀᴛᴜꜱ ♻️", url=f"{query.message.link}")
         ],[
-            InlineKeyboardButton("✅ ʀᴇǫᴜᴇꜱᴛ ɢʀᴏᴜᴘ ✅", url="https://t.me/Mahi_Movie_Request")
+            InlineKeyboardButton("✅ ʀᴇǫᴜᴇꜱᴛ ɢʀᴏᴜᴘ ✅", url="https://t.me/DDLJ_MovieRequest")
         ]]
         if query.from_user.id in ADMINS:
             user = await client.get_users(from_user)
@@ -1888,11 +1888,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
             buttons = [[
                 InlineKeyboardButton('⇋ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⇌', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-                InlineKeyboardButton('💸 ᴇᴀʀɴ ᴍᴏɴᴇʏ 💸', callback_data='english_info'),
-                InlineKeyboardButton('🌿 ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ', callback_data='sccode')
+                InlineKeyboardButton('💸 ᴇᴀʀɴ ᴜɴʟɪᴍɪᴛᴇᴅ ᴍᴏɴᴇʏ 💸', callback_data="english_info")
             ],[
-                InlineKeyboardButton('‼️ ᴅɪꜱᴄʟᴀɪᴍᴇʀ', callback_data='dsclr'),
-                InlineKeyboardButton('🧑‍💻 ʀᴇꜰᴇʀ', callback_data='subscription')
+                InlineKeyboardButton('‼️ ᴅɪꜱᴄʟᴀɪᴍᴇʀ ‼️', callback_data='dsclr'),
+            ],[
+                InlineKeyboardButton('🧑‍💻 ʀᴇғᴇʀ ᴛᴏ ɢᴇᴛ ғʀᴇᴇ ᴘʀᴇᴍɪᴜᴍ 🧑‍💻', callback_data='subscription')
             ],[
                 InlineKeyboardButton('✨ ʙᴜʏ ꜱᴜʙꜱᴄʀɪᴘᴛɪᴏɴ : ʀᴇᴍᴏᴠᴇ ᴀᴅꜱ ✨', callback_data='seeplans')
             ]]
@@ -1900,11 +1900,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
             buttons = [[
                 InlineKeyboardButton('⇋ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⇌', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-                InlineKeyboardButton('💸 ᴇᴀʀɴ ᴍᴏɴᴇʏ 💸', callback_data='english_info'),
-                InlineKeyboardButton('🌿 ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ', callback_data="sccode")
+                InlineKeyboardButton('💸 ᴇᴀʀɴ ᴜɴʟɪᴍɪᴛᴇᴅ ᴍᴏɴᴇʏ 💸', callback_data="english_info")
             ],[
-                InlineKeyboardButton('‼️ ᴅɪꜱᴄʟᴀɪᴍᴇʀ', callback_data='dsclr'),
-                InlineKeyboardButton('🧑‍💻 ʀᴇꜰᴇʀ', callback_data='subscription')
+                InlineKeyboardButton('‼️ ᴅɪꜱᴄʟᴀɪᴍᴇʀ ‼️', callback_data='dsclr'),
+            ],[
+                InlineKeyboardButton('🧑‍💻 ʀᴇғᴇʀ ᴛᴏ ɢᴇᴛ ғʀᴇᴇ ᴘʀᴇᴍɪᴜᴍ 🧑‍💻', callback_data='subscription')
             ],[
                 InlineKeyboardButton('✨ ʙᴜʏ ꜱᴜʙꜱᴄʀɪᴘᴛɪᴏɴ : ʀᴇᴍᴏᴠᴇ ᴀᴅꜱ ✨', callback_data='seeplans')
             ]]
@@ -1957,11 +1957,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
         
     elif query.data == "free":
         buttons = [[
-            InlineKeyboardButton('📲 ꜱᴇɴᴅ ᴘᴀʏᴍᴇɴᴛ ꜱᴄʀᴇᴇɴꜱʜᴏᴛ ʜᴇʀᴇ', url='https://telegram.me/MAHI_KX')
+            InlineKeyboardButton('📲 ꜱᴇɴᴅ ᴘᴀʏᴍᴇɴᴛ ꜱᴄʀᴇᴇɴꜱʜᴏᴛ ʜᴇʀᴇ', url='https://telegram.me/sergueve')
         ],[
 	        InlineKeyboardButton('👀 ᴡᴀᴛᴄʜ ᴛᴜᴛᴏʀɪᴀʟ ʜᴇʀᴇ 👀', url='https://t.me/HowToVerify_xD/20')
 	    ],[
-	        InlineKeyboardButton('💭 ᴀɴʏ ǫᴜᴇʀʏ', url='https://telegram.me/'),
+	        InlineKeyboardButton('💭 ᴀɴʏ ǫᴜᴇʀʏ', url='https://telegram.me/sergueve'),
 	        InlineKeyboardButton('💎 𝗖𝘂𝘀𝘁𝗼𝗺 𝗣𝗹𝗮𝗻 💎', callback_data='other')
         ],[
             InlineKeyboardButton('⇋ ʙᴀᴄᴋ ⇋', callback_data='start'),
@@ -1998,7 +1998,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         
     elif query.data == "other":
         buttons = [[
-            InlineKeyboardButton('☎️ ᴄᴏɴᴛᴀᴄᴛ ᴏᴡɴᴇʀ ᴛᴏ ᴋɴᴏᴡ ᴍᴏʀᴇ', url='https://telegram.me/MAHI_KX')
+            InlineKeyboardButton('☎️ ᴄᴏɴᴛᴀᴄᴛ ᴏᴡɴᴇʀ ᴛᴏ ᴋɴᴏᴡ ᴍᴏʀᴇ', url='https://telegram.me/sergueve')
         ],[
             InlineKeyboardButton('⇋ ʙᴀᴄᴋ ⇋', callback_data='free')
         ]]
@@ -2053,7 +2053,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "sccode":
         buttons = [[
-            InlineKeyboardButton('💸 ɢᴇᴛ ꜰʀᴏᴍ ʜᴇʀᴇ ✅', url='https://telegram.me/MAHI_KX')
+            InlineKeyboardButton('💸 ɢᴇᴛ ꜰʀᴏᴍ ʜᴇʀᴇ ✅', url='https://telegram.me/sergueve')
         ],[
             InlineKeyboardButton('⇋ ʙᴀᴄᴋ ⇋', callback_data='start')
         ]]
@@ -2328,7 +2328,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "tele":
         btn = [[
-            InlineKeyboardButton("📞 ᴄᴏɴᴛᴀᴄᴛ 🐍", url="telegram.me/MAHI_KX"),
+            InlineKeyboardButton("📞 ᴄᴏɴᴛᴀᴄᴛ 🐍", url="telegram.me/sergueve"),
             InlineKeyboardButton("⇋ ʙᴀᴄᴋ ⇋", callback_data="help")
         ]]
         await client.edit_message_media(
@@ -2369,7 +2369,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "share":
         btn = [[
-            InlineKeyboardButton("📞 ᴄᴏɴᴛᴀᴄᴛ 🐍", url="telegram.me/MAHI_KX"),
+            InlineKeyboardButton("📞 ᴄᴏɴᴛᴀᴄᴛ 🐍", url="telegram.me/sergueve"),
             InlineKeyboardButton("⇋ ʙᴀᴄᴋ ⇋", callback_data="help")
         ]]
         await client.edit_message_media(
@@ -2385,7 +2385,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "song":
         btn = [[
-            InlineKeyboardButton("📞 ᴄᴏɴᴛᴀᴄᴛ 🐍", url="telegram.me/MAHI_KX"),
+            InlineKeyboardButton("📞 ᴄᴏɴᴛᴀᴄᴛ 🐍", url="telegram.me/sergueve"),
             InlineKeyboardButton("⇋ ʙᴀᴄᴋ ⇋", callback_data="help")
         ]]
         await client.edit_message_media(
@@ -2426,7 +2426,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "sticker":
         btn = [[
-            InlineKeyboardButton("📞 ᴄᴏɴᴛᴀᴄᴛ 🐍", url="telegram.me/MAHI_KX"),
+            InlineKeyboardButton("📞 ᴄᴏɴᴛᴀᴄᴛ 🐍", url="telegram.me/sergueve"),
             InlineKeyboardButton("⇋ ʙᴀᴄᴋ ⇋", callback_data="help")
         ]]
         await client.edit_message_media(
@@ -2442,7 +2442,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "english_info":
         btn = [[
-            InlineKeyboardButton("📞 ᴄᴏɴᴛᴀᴄᴛ 🐍", url="telegram.me/MAHI_KX"),
+            InlineKeyboardButton("📞 ᴄᴏɴᴛᴀᴄᴛ 🐍", url="telegram.me/sergueve"),
             InlineKeyboardButton("⇋ ʙᴀᴄᴋ ⇋", callback_data="start")
         ]]
         await client.edit_message_media(
@@ -2459,7 +2459,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "dsclr":
         btn = [[
-            InlineKeyboardButton("📞 ᴄᴏɴᴛᴀᴄᴛ 🐍", url="telegram.me/MAHI_KX"),
+            InlineKeyboardButton("📞 ᴄᴏɴᴛᴀᴄᴛ 🐍", url="telegram.me/sergueve"),
             InlineKeyboardButton("⇋ ʙᴀᴄᴋ ⇋", callback_data="start")
         ]]
         await client.edit_message_media(
@@ -2870,7 +2870,7 @@ async def manual_filters(client, message, text=False):
                             try:
                                 if settings['auto_ffilter']:
                                     ai_search = True
-                                    reply_msg = await message.reply_text(f"<b><i>Searching For {message.text} 🔍</i></b>")
+                                    reply_msg = await message.reply_text(f"<b><i>sᴇᴀʀᴄʜɪɴɢ ғᴏʀ ʏᴏᴜʀ ʀᴇᴏ̨ᴜᴇsᴛ</i></b>")
                                     await auto_filter(client, message.text, message, reply_msg, ai_search)
                                     try:
                                         if settings['auto_delete']:
@@ -2899,7 +2899,7 @@ async def manual_filters(client, message, text=False):
                                 settings = await get_settings(message.chat.id)
                                 if settings['auto_ffilter']:
                                     ai_search = True
-                                    reply_msg = await message.reply_text(f"<b><i>Searching For {message.text} 🔍</i></b>")
+                                    reply_msg = await message.reply_text(f"<b><i>sᴇᴀʀᴄʜɪɴɢ ғᴏʀ ʏᴏᴜʀ ʀᴇᴏ̨ᴜᴇsᴛ</i></b>")
                                     await auto_filter(client, message.text, message, reply_msg, ai_search)
 
                         else:
@@ -2915,7 +2915,7 @@ async def manual_filters(client, message, text=False):
                             try:
                                 if settings['auto_ffilter']:
                                     ai_search = True
-                                    reply_msg = await message.reply_text(f"<b><i>Searching For {message.text} 🔍</i></b>")
+                                    reply_msg = await message.reply_text(f"<b><i>sᴇᴀʀᴄʜɪɴɢ ғᴏʀ ʏᴏᴜʀ ʀᴇᴏ̨ᴜᴇsᴛ</i></b>")
                                     await auto_filter(client, message.text, message, reply_msg, ai_search)
                                     try:
                                         if settings['auto_delete']:
@@ -2944,7 +2944,7 @@ async def manual_filters(client, message, text=False):
                                 settings = await get_settings(message.chat.id)
                                 if settings['auto_ffilter']:
                                     ai_search = True
-                                    reply_msg = await message.reply_text(f"<b><i>Searching For {message.text} 🔍</i></b>")
+                                    reply_msg = await message.reply_text(f"<b><i>sᴇᴀʀᴄʜɪɴɢ ғᴏʀ ʏᴏᴜʀ ʀᴇᴏ̨ᴜᴇsᴛ</i></b>")
                                     await auto_filter(client, message.text, message, reply_msg, ai_search)
                     elif btn == "[]":
                         joelkb = await client.send_cached_media(
@@ -2957,7 +2957,7 @@ async def manual_filters(client, message, text=False):
                         try:
                             if settings['auto_ffilter']:
                                 ai_search = True
-                                reply_msg = await message.reply_text(f"<b><i>Searching For {message.text} 🔍</i></b>")
+                                reply_msg = await message.reply_text(f"<b><i>sᴇᴀʀᴄʜɪɴɢ ғᴏʀ ʏᴏᴜʀ ʀᴇᴏ̨ᴜᴇsᴛ</i></b>")
                                 await auto_filter(client, message.text, message, reply_msg, ai_search)
                                 try:
                                     if settings['auto_delete']:
@@ -2986,7 +2986,7 @@ async def manual_filters(client, message, text=False):
                             settings = await get_settings(message.chat.id)
                             if settings['auto_ffilter']:
                                 ai_search = True
-                                reply_msg = await message.reply_text(f"<b><i>Searching For {message.text} 🔍</i></b>")
+                                reply_msg = await message.reply_text(f"<b><i>sᴇᴀʀᴄʜɪɴɢ ғᴏʀ ʏᴏᴜʀ ʀᴇᴏ̨ᴜᴇsᴛ</i></b>")
                                 await auto_filter(client, message.text, message, reply_msg, ai_search)
                     else:
                         button = eval(btn)
@@ -2999,7 +2999,7 @@ async def manual_filters(client, message, text=False):
                         try:
                             if settings['auto_ffilter']:
                                 ai_search = True
-                                reply_msg = await message.reply_text(f"<b><i>Searching For {message.text} 🔍</i></b>")
+                                reply_msg = await message.reply_text(f"<b><i>sᴇᴀʀᴄʜɪɴɢ ғᴏʀ ʏᴏᴜʀ ʀᴇᴏ̨ᴜᴇsᴛ</i></b>")
                                 await auto_filter(client, message.text, message, reply_msg, ai_search)
                                 try:
                                     if settings['auto_delete']:
@@ -3028,7 +3028,7 @@ async def manual_filters(client, message, text=False):
                             settings = await get_settings(message.chat.id)
                             if settings['auto_ffilter']:
                                 ai_search = True
-                                reply_msg = await message.reply_text(f"<b><i>Searching For {message.text} 🔍</i></b>")
+                                reply_msg = await message.reply_text(f"<b><i>sᴇᴀʀᴄʜɪɴɢ ғᴏʀ ʏᴏᴜʀ ʀᴇᴏ̨ᴜᴇsᴛ</i></b>")
                                 await auto_filter(client, message.text, message, reply_msg, ai_search)
 
                 except Exception as e:
@@ -3067,7 +3067,7 @@ async def global_filters(client, message, text=False):
                                 try:
                                     if settings['auto_ffilter']:
                                         ai_search = True
-                                        reply_msg = await message.reply_text(f"<b><i>Searching For {message.text} 🔍</i></b>")
+                                        reply_msg = await message.reply_text(f"<b><i>sᴇᴀʀᴄʜɪɴɢ ғᴏʀ ʏᴏᴜʀ ʀᴇᴏ̨ᴜᴇsᴛ</i></b>")
                                         await auto_filter(client, message.text, message, reply_msg, ai_search)
                                         try:
                                             if settings['auto_delete']:
@@ -3096,7 +3096,7 @@ async def global_filters(client, message, text=False):
                                     settings = await get_settings(message.chat.id)
                                     if settings['auto_ffilter']:
                                         ai_search = True
-                                        reply_msg = await message.reply_text(f"<b><i>Searching For {message.text} 🔍</i></b>")
+                                        reply_msg = await message.reply_text(f"<b><i>sᴇᴀʀᴄʜɪɴɢ ғᴏʀ ʏᴏᴜʀ ʀᴇᴏ̨ᴜᴇsᴛ</i></b>")
                                         await auto_filter(client, message.text, message, reply_msg, ai_search) 
                             else:
                                 try:
@@ -3124,7 +3124,7 @@ async def global_filters(client, message, text=False):
                                 try:
                                     if settings['auto_ffilter']:
                                         ai_search = True
-                                        reply_msg = await message.reply_text(f"<b><i>Searching For {message.text} 🔍</i></b>")
+                                        reply_msg = await message.reply_text(f"<b><i>sᴇᴀʀᴄʜɪɴɢ ғᴏʀ ʏᴏᴜʀ ʀᴇᴏ̨ᴜᴇsᴛ</i></b>")
                                         await auto_filter(client, message.text, message, reply_msg, ai_search)
                                         try:
                                             if settings['auto_delete']:
@@ -3153,7 +3153,7 @@ async def global_filters(client, message, text=False):
                                     settings = await get_settings(message.chat.id)
                                     if settings['auto_ffilter']:
                                         ai_search = True
-                                        reply_msg = await message.reply_text(f"<b><i>Searching For {message.text} 🔍</i></b>")
+                                        reply_msg = await message.reply_text(f"<b><i>sᴇᴀʀᴄʜɪɴɢ ғᴏʀ ʏᴏᴜʀ ʀᴇᴏ̨ᴜᴇsᴛ</i></b>")
                                         await auto_filter(client, message.text, message, reply_msg, ai_search)
                             else:
                                 try:
@@ -3179,7 +3179,7 @@ async def global_filters(client, message, text=False):
                             try:
                                 if settings['auto_ffilter']:
                                     ai_search = True
-                                    reply_msg = await message.reply_text(f"<b><i>Searching For {message.text} 🔍</i></b>")
+                                    reply_msg = await message.reply_text(f"<b><i>sᴇᴀʀᴄʜɪɴɢ ғᴏʀ ʏᴏᴜʀ ʀᴇᴏ̨ᴜᴇsᴛ</i></b>")
                                     await auto_filter(client, message.text, message, reply_msg, ai_search)
                                     try:
                                         if settings['auto_delete']:
@@ -3208,7 +3208,7 @@ async def global_filters(client, message, text=False):
                                 settings = await get_settings(message.chat.id)
                                 if settings['auto_ffilter']:
                                     ai_search = True
-                                    reply_msg = await message.reply_text(f"<b><i>Searching For {message.text} 🔍</i></b>")
+                                    reply_msg = await message.reply_text(f"<b><i>sᴇᴀʀᴄʜɪɴɢ ғᴏʀ ʏᴏᴜʀ ʀᴇᴏ̨ᴜᴇsᴛ</i></b>")
                                     await auto_filter(client, message.text, message, reply_msg, ai_search) 
                         else:
                             try:
@@ -3235,7 +3235,7 @@ async def global_filters(client, message, text=False):
                             try:
                                 if settings['auto_ffilter']:
                                     ai_search = True
-                                    reply_msg = await message.reply_text(f"<b><i>Searching For {message.text} 🔍</i></b>")
+                                    reply_msg = await message.reply_text(f"<b><i>sᴇᴀʀᴄʜɪɴɢ ғᴏʀ ʏᴏᴜʀ ʀᴇᴏ̨ᴜᴇsᴛ</i></b>")
                                     await auto_filter(client, message.text, message, reply_msg, ai_search)
                                     try:
                                         if settings['auto_delete']:
@@ -3264,7 +3264,7 @@ async def global_filters(client, message, text=False):
                                 settings = await get_settings(message.chat.id)
                                 if settings['auto_ffilter']:
                                     ai_search = True
-                                    reply_msg = await message.reply_text(f"<b><i>Searching For {message.text} 🔍</i></b>")
+                                    reply_msg = await message.reply_text(f"<b><i>sᴇᴀʀᴄʜɪɴɢ ғᴏʀ ʏᴏᴜʀ ʀᴇᴏ̨ᴜᴇsᴛ</i></b>")
                                     await auto_filter(client, message.text, message, reply_msg, ai_search)
                         else:
                             try:
