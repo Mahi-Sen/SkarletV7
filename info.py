@@ -55,28 +55,28 @@ DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in enviro
 
 
 # MongoDB information
-#DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://agdasgda:11111115255252@cluster0.pykgf3u.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")   # IF Multiple Database Is False Then Fill Only This Database Url.
-#DATABASE_NAME = environ.get('DATABASE_NAME', "techvjclonefilterbot")
-#COLLECTION_NAME = environ.get('COLLECTION_NAME', 'vjcollection')
-
-#MULTIPLE_DATABASE = bool(environ.get('MULTIPLE_DATABASE', True)) # Set True or False
-
-# If Multiple Database Is True Then Fill All Three Below Database Uri Else You Will Get Error.
-#O_DB_URI = environ.get('O_DB_URI', "mongodb+srv://dsgahgdha:2222222sdhab@cluster0.huwqj59.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")   # This Db Is For Other Data Store
-#F_DB_URI = environ.get('F_DB_URI', "mongodb+srv://asdghvdbhs:3333333saew@cluster0.c1omjnt.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")   # This Db Is For File Data Store
-#S_DB_URI = environ.get('S_DB_URI', "mongodb+srv://asdsfsaerf:4444444444adsagd>@cluster0.sghpy8r.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")   # This Db is for File Data Store When First Db Is Going To Be Full.
-
-
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://AAAAAAAAAAAAAA:AAAAAAAAAAAAAAAA@cluster0.y1yijwu.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")   # IF Multiple Database Is False Then Fill Only This Database Url.
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://agdasgda:11111115255252@cluster0.pykgf3u.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")   # IF Multiple Database Is False Then Fill Only This Database Url.
 DATABASE_NAME = environ.get('DATABASE_NAME', "techvjclonefilterbot")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'vjcollection')
 
 MULTIPLE_DATABASE = bool(environ.get('MULTIPLE_DATABASE', True)) # Set True or False
 
 # If Multiple Database Is True Then Fill All Three Below Database Uri Else You Will Get Error.
-O_DB_URI = environ.get('O_DB_URI', "mongodb+srv://bbbbbbbbbbbbbbbbbb:BBBBBBBBBBBBB@cluster0.yn4emhl.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")   # This Db Is For Other Data Store
-F_DB_URI = environ.get('F_DB_URI', "mongodb+srv://CCCCCCCCC:CCCCCCCCCCCCCC@cluster0.tgrv5m1.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")   # This Db Is For File Data Store
-S_DB_URI = environ.get('S_DB_URI', "mongodb+srv://DDDDDDDDD:DDDDDDDDDDDD@cluster0.r8xgvwa.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")   # This Db is for File Data Store When First Db Is Going To Be Full.
+O_DB_URI = environ.get('O_DB_URI', "mongodb+srv://FILLELEL:HAGSDHGSV@cluster0.sehkvss.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")   # This Db Is For Other Data Store
+F_DB_URI = environ.get('F_DB_URI', "mongodb+srv://asdghvdbhs:3333333saew@cluster0.c1omjnt.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")   # This Db Is For File Data Store
+S_DB_URI = environ.get('S_DB_URI', "mongodb+srv://asdsfsaerf:4444444444adsagd>@cluster0.sghpy8r.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")   # This Db is for File Data Store When First Db Is Going To Be Full.
+
+
+#DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://AAAAAAAAAAAAAA:AAAAAAAAAAAAAAAA@cluster0.y1yijwu.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")   # IF Multiple Database Is False Then Fill Only This Database Url.
+#DATABASE_NAME = environ.get('DATABASE_NAME', "techvjclonefilterbot")
+#COLLECTION_NAME = environ.get('COLLECTION_NAME', 'vjcollection')
+
+#MULTIPLE_DATABASE = bool(environ.get('MULTIPLE_DATABASE', True)) # Set True or False
+
+# If Multiple Database Is True Then Fill All Three Below Database Uri Else You Will Get Error.
+#O_DB_URI = environ.get('O_DB_URI', "mongodb+srv://bbbbbbbbbbbbbbbbbb:BBBBBBBBBBBBB@cluster0.yn4emhl.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")   # This Db Is For Other Data Store
+#F_DB_URI = environ.get('F_DB_URI', "mongodb+srv://CCCCCCCCC:CCCCCCCCCCCCCC@cluster0.tgrv5m1.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")   # This Db Is For File Data Store
+#S_DB_URI = environ.get('S_DB_URI', "mongodb+srv://DDDDDDDDD:DDDDDDDDDDDD@cluster0.r8xgvwa.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")   # This Db is for File Data Store When First Db Is Going To Be Full.
 
 # Premium And Referal Settings
 PREMIUM_AND_REFERAL_MODE = bool(environ.get('PREMIUM_AND_REFERAL_MODE', True)) # Set Ture Or False
