@@ -44,11 +44,11 @@ async def start(client, message):
             buttons = [[
                 InlineKeyboardButton('⇋ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⇌', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-                InlineKeyboardButton('💸 ᴇᴀʀɴ ᴍᴏɴᴇʏ 💸', callback_data="english_info"),
-                InlineKeyboardButton('🌿 ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ', callback_data="sccode")
+                InlineKeyboardButton('💸 ᴇᴀʀɴ ᴜɴʟɪᴍɪᴛᴇᴅ ᴍᴏɴᴇʏ 💸', callback_data="english_info")
             ],[
-                InlineKeyboardButton('‼️ ᴅɪꜱᴄʟᴀɪᴍᴇʀ', callback_data='dsclr'),
-                InlineKeyboardButton('🧑‍💻 ʀᴇꜰᴇʀ', callback_data='subscription')
+                InlineKeyboardButton('‼️ ᴅɪꜱᴄʟᴀɪᴍᴇʀ ‼️', callback_data='dsclr'),
+            ],[
+                InlineKeyboardButton('🧑‍💻 ʀᴇғᴇʀ ᴛᴏ ɢᴇᴛ ғʀᴇᴇ ᴘʀᴇᴍɪᴜᴍ 🧑‍💻', callback_data='subscription')
             ],[
                 InlineKeyboardButton('✨ ʙᴜʏ ꜱᴜʙꜱᴄʀɪᴘᴛɪᴏɴ : ʀᴇᴍᴏᴠᴇ ᴀᴅꜱ ✨', callback_data='seeplans')
             ]]
@@ -56,11 +56,11 @@ async def start(client, message):
             buttons = [[
                 InlineKeyboardButton('⇋ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⇌', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-                InlineKeyboardButton('💸 ᴇᴀʀɴ ᴍᴏɴᴇʏ 💸', callback_data="english_info"),
-                InlineKeyboardButton('🌿 ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ', callback_data="sccode")
+                InlineKeyboardButton('💸 ᴇᴀʀɴ ᴜɴʟɪᴍɪᴛᴇᴅ ᴍᴏɴᴇʏ 💸', callback_data="english_info")
             ],[
-                InlineKeyboardButton('‼️ ᴅɪꜱᴄʟᴀɪᴍᴇʀ', callback_data='dsclr'),
-                InlineKeyboardButton('🧑‍💻 ʀᴇꜰᴇʀ', callback_data='seeplans')
+                InlineKeyboardButton('‼️ ᴅɪꜱᴄʟᴀɪᴍᴇʀ ‼️', callback_data='dsclr'),
+            ],[
+                InlineKeyboardButton('🧑‍💻 ʀᴇғᴇʀ ᴛᴏ ɢᴇᴛ ғʀᴇᴇ ᴘʀᴇᴍɪᴜᴍ 🧑‍💻', callback_data='subscription')
             ],[
                 InlineKeyboardButton('✨ ʙᴜʏ ꜱᴜʙꜱᴄʀɪᴘᴛɪᴏɴ : ʀᴇᴍᴏᴠᴇ ᴀᴅꜱ ✨', callback_data='seeplans')
             ]]
@@ -130,11 +130,11 @@ async def start(client, message):
             buttons = [[
                 InlineKeyboardButton('⇋ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⇌', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-                InlineKeyboardButton('💸 ᴇᴀʀɴ ᴍᴏɴᴇʏ 💸', callback_data="english_info"),
-                InlineKeyboardButton('🌿 ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ', callback_data="sccode")
+                InlineKeyboardButton('💸 ᴇᴀʀɴ ᴜɴʟɪᴍɪᴛᴇᴅ ᴍᴏɴᴇʏ 💸', callback_data="english_info")
             ],[
-                InlineKeyboardButton('‼️ ᴅɪꜱᴄʟᴀɪᴍᴇʀ', callback_data='dsclr'),
-                InlineKeyboardButton('🧑‍💻 ʀᴇꜰᴇʀ', callback_data='subscription')
+                InlineKeyboardButton('‼️ ᴅɪꜱᴄʟᴀɪᴍᴇʀ ‼️', callback_data='dsclr'),
+            ],[
+                InlineKeyboardButton('🧑‍💻 ʀᴇғᴇʀ ᴛᴏ ɢᴇᴛ ғʀᴇᴇ ᴘʀᴇᴍɪᴜᴍ 🧑‍💻', callback_data='subscription')
             ],[
                 InlineKeyboardButton('✨ ʙᴜʏ ꜱᴜʙꜱᴄʀɪᴘᴛɪᴏɴ : ʀᴇᴍᴏᴠᴇ ᴀᴅꜱ ✨', callback_data='seeplans')
             ]]
@@ -142,11 +142,11 @@ async def start(client, message):
             buttons = [[
                 InlineKeyboardButton('⇋ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⇌', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-                InlineKeyboardButton('💸 ᴇᴀʀɴ ᴍᴏɴᴇʏ 💸', callback_data="english_info"),
-                InlineKeyboardButton('🌿 ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ', callback_data="sccode")
+                InlineKeyboardButton('💸 ᴇᴀʀɴ ᴜɴʟɪᴍɪᴛᴇᴅ ᴍᴏɴᴇʏ 💸', callback_data="english_info")
             ],[
-                InlineKeyboardButton('‼️ ᴅɪꜱᴄʟᴀɪᴍᴇʀ', callback_data='dsclr'),
-                InlineKeyboardButton('🧑‍💻 ʀᴇꜰᴇʀ', callback_data='subscription')
+                InlineKeyboardButton('‼️ ᴅɪꜱᴄʟᴀɪᴍᴇʀ ‼️', callback_data='dsclr'),
+            ],[
+                InlineKeyboardButton('🧑‍💻 ʀᴇғᴇʀ ᴛᴏ ɢᴇᴛ ғʀᴇᴇ ᴘʀᴇᴍɪᴜᴍ 🧑‍💻', callback_data='subscription')
             ],[
                 InlineKeyboardButton('✨ ʙᴜʏ ꜱᴜʙꜱᴄʀɪᴘᴛɪᴏɴ : ʀᴇᴍᴏᴠᴇ ᴀᴅꜱ ✨', callback_data='seeplans')
             ]]
@@ -181,28 +181,28 @@ async def start(client, message):
         else:
             if PREMIUM_AND_REFERAL_MODE == True:
                 buttons = [[
-                    InlineKeyboardButton('⇋ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⇌', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+                InlineKeyboardButton('⇋ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⇌', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-                InlineKeyboardButton('💸 ᴇᴀʀɴ ᴍᴏɴᴇʏ 💸', callback_data="english_info"),
-                InlineKeyboardButton('🌿 ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ', callback_data="sccode")
+                InlineKeyboardButton('💸 ᴇᴀʀɴ ᴜɴʟɪᴍɪᴛᴇᴅ ᴍᴏɴᴇʏ 💸', callback_data="english_info")
             ],[
-                InlineKeyboardButton('‼️ ᴅɪꜱᴄʟᴀɪᴍᴇʀ', callback_data='dsclr'),
-                InlineKeyboardButton('🧑‍💻 ʀᴇꜰᴇʀ', callback_data='subscription')
+                InlineKeyboardButton('‼️ ᴅɪꜱᴄʟᴀɪᴍᴇʀ ‼️', callback_data='dsclr'),
+            ],[
+                InlineKeyboardButton('🧑‍💻 ʀᴇғᴇʀ ᴛᴏ ɢᴇᴛ ғʀᴇᴇ ᴘʀᴇᴍɪᴜᴍ 🧑‍💻', callback_data='subscription')
             ],[
                 InlineKeyboardButton('✨ ʙᴜʏ ꜱᴜʙꜱᴄʀɪᴘᴛɪᴏɴ : ʀᴇᴍᴏᴠᴇ ᴀᴅꜱ ✨', callback_data='seeplans')
-                ]]
+            ]]
             else:
                 buttons = [[
-                    InlineKeyboardButton('⇋ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⇌', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+                InlineKeyboardButton('⇋ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⇌', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-                InlineKeyboardButton('💸 ᴇᴀʀɴ ᴍᴏɴᴇʏ 💸', callback_data="english_info"),
-                InlineKeyboardButton('🌿 ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ', callback_data="sccode")
+                InlineKeyboardButton('💸 ᴇᴀʀɴ ᴜɴʟɪᴍɪᴛᴇᴅ ᴍᴏɴᴇʏ 💸', callback_data="english_info")
             ],[
-                InlineKeyboardButton('‼️ ᴅɪꜱᴄʟᴀɪᴍᴇʀ', callback_data='dsclr'),
-                InlineKeyboardButton('🧑‍💻 ʀᴇꜰᴇʀ', callback_data='subscription')
+                InlineKeyboardButton('‼️ ᴅɪꜱᴄʟᴀɪᴍᴇʀ ‼️', callback_data='dsclr'),
+            ],[
+                InlineKeyboardButton('🧑‍💻 ʀᴇғᴇʀ ᴛᴏ ɢᴇᴛ ғʀᴇᴇ ᴘʀᴇᴍɪᴜᴍ 🧑‍💻', callback_data='subscription')
             ],[
                 InlineKeyboardButton('✨ ʙᴜʏ ꜱᴜʙꜱᴄʀɪᴘᴛɪᴏɴ : ʀᴇᴍᴏᴠᴇ ᴀᴅꜱ ✨', callback_data='seeplans')
-                ]]
+            ]]
             if CLONE_MODE == True:
                 buttons.append([InlineKeyboardButton('🤖 Cʀᴇᴀᴛᴇ Yᴏᴜʀ Oᴡɴ Cʟᴏɴᴇ Bᴏᴛ 🤖', callback_data='clone')])
             reply_markup = InlineKeyboardMarkup(buttons)
@@ -388,7 +388,7 @@ async def start(client, message):
                     ]]
                 else:
                     button = [[
-                        InlineKeyboardButton('🍿🎥 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ 🎥🍿', url='https://t.me/Radhe_Krishn_Movies')]]
+                        InlineKeyboardButton('🍿🎥 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ 🎥🍿', url='https://t.me/sergue')]]
                 try:
                     p = await msg.copy(message.chat.id, caption=f_caption, protect_content=True if protect == "/pbatch" else False, reply_markup=InlineKeyboardMarkup(button))
                     filesarr.append(p)
@@ -436,7 +436,7 @@ async def start(client, message):
         is_valid = await check_token(client, userid, token)
         if is_valid == True:
             await message.reply_text(
-                text=f"<b>ʜᴇʟʟᴏ {message.from_user.mention}, 💐 ʏᴏᴜ'ʀᴇ ꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ 🌹\n\n✅ ᴠᴇʀɪꜰɪᴇᴅ ✅\n\n🔥 ᴇɴᴊᴏʏ ᴜɴʟɪᴍɪᴛᴇᴅ ᴀᴄᴄᴇꜱꜱ ᴛᴏ ᴀ ᴡᴏʀʟᴅ ᴏꜰ ᴍᴏᴠɪᴇꜱ ꜰᴏʀ ᴛʜᴇ ɴᴇxᴛ ꜰᴇᴡ ʜᴏᴜʀꜱ. 🎬🍿</b>",
+                text=f"<b>ʜᴇʟʟᴏ {message.from_user.mention}, 💐 ʏᴏᴜ'ʀᴇ ꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ 🌹\n\n✅ ᴠᴇʀɪꜰɪᴇᴅ ✅\n\n🔥 ᴇɴᴊᴏʏ ᴜɴʟɪᴍɪᴛᴇᴅ ᴀᴄᴄᴇꜱꜱ ᴛᴏ ᴀ ᴡᴏʀʟᴅ ᴏꜰ ᴍᴏᴠɪᴇꜱ ꜰᴏʀ ᴛʜᴇ ɴᴇxᴛ 24 ʜᴏᴜʀꜱ. 🎬🍿</b>",
                 protect_content=True
             )
             await verify_user(client, userid, token)
@@ -575,7 +575,7 @@ async def start(client, message):
             button = []
             if STREAM_MODE == True:
                 button.append([InlineKeyboardButton('⭐ ғᴀsᴛ ᴅᴏᴡɴʟᴏᴀᴅ 🚀 + 🎥 ᴡᴀᴛᴄʜ ᴏɴʟɪɴᴇ ⭐', callback_data=f'generate_stream_link:{file_id}')
-			      ],[InlineKeyboardButton('🍿🎥 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ 🎥🍿', url='https://t.me/Radhe_Krishn_Movies')])
+			      ],[InlineKeyboardButton('🍿🎥 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ 🎥🍿', url='https://t.me/sergue')])
             msg = await client.send_cached_media(
                 chat_id=message.from_user.id,
                 file_id=file_id,
