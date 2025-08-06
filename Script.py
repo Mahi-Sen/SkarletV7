@@ -543,8 +543,8 @@ Example:- /set_caption 📕 File Name: {filename}
  ❏ 𝟷80₹    ➠    𝟶𝟼 ᴍᴏɴᴛʜ
  ❏ 𝟹0𝟶₹    ➠    𝟷𝟸 ᴍᴏɴᴛʜ
 
-💵 ᴜᴘɪ ɪᴅ ➩ <code>ms.mihir@fam</code> [ᴄʟɪᴄᴋ ᴛᴏ ᴄᴏᴘʏ]
-📸 ǫʀ ᴄᴏᴅᴇ ➩ <a href='https://i.ibb.co/whG6Vymn/photo-2025-07-22-23-46-04.jpg'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a> [ᴄʟɪᴄᴋ ᴛᴏ ɢᴇᴛ ᴏ̨ʀ]
+💵 ᴜᴘɪ ɪᴅ ➩ <code>@sergueve</code> [ᴄʟɪᴄᴋ ᴛᴏ ᴄᴏᴘʏ]
+📸 ǫʀ ᴄᴏᴅᴇ ➩ <a href='@sergueve'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a> [ᴄʟɪᴄᴋ ᴛᴏ ɢᴇᴛ ᴏ̨ʀ]
  
 ⚜️ ᴄʜᴇᴄᴋ ʏᴏᴜʀ ᴀᴄᴛɪᴠᴇ ᴘʟᴀɴ: /myplan
 
@@ -573,8 +573,8 @@ Example:- /set_caption 📕 File Name: {filename}
  ❏ 𝟷80₹    ➠    𝟶𝟼 ᴍᴏɴᴛʜ
  ❏ 𝟹0𝟶₹    ➠    𝟷𝟸 ᴍᴏɴᴛʜ
 
-💵 ᴜᴘɪ ɪᴅ ➩ <code>ms.mihir@fam</code> [ᴄʟɪᴄᴋ ᴛᴏ ᴄᴏᴘʏ]
-📸 ǫʀ ᴄᴏᴅᴇ ➩ <a href='https://i.ibb.co/whG6Vymn/photo-2025-07-22-23-46-04.jpg'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a> [ᴄʟɪᴄᴋ ᴛᴏ ɢᴇᴛ ᴏ̨ʀ]
+💵 ᴜᴘɪ ɪᴅ ➩ <code>@sergueve</code> [ᴄʟɪᴄᴋ ᴛᴏ ᴄᴏᴘʏ]
+📸 ǫʀ ᴄᴏᴅᴇ ➩ <a href='@sergueve'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a> [ᴄʟɪᴄᴋ ᴛᴏ ɢᴇᴛ ᴏ̨ʀ]
  
 ⚜️ ᴄʜᴇᴄᴋ ʏᴏᴜʀ ᴀᴄᴛɪᴠᴇ ᴘʟᴀɴ: /myplan
 
@@ -603,8 +603,8 @@ Example:- /set_caption 📕 File Name: {filename}
  ❏ 𝟷80₹    ➠    𝟶𝟼 ᴍᴏɴᴛʜ
  ❏ 𝟹0𝟶₹    ➠    𝟷𝟸 ᴍᴏɴᴛʜ
 
-💵 ᴜᴘɪ ɪᴅ ➩ <code>ms.mihir@fam</code> [ᴄʟɪᴄᴋ ᴛᴏ ᴄᴏᴘʏ]
-📸 ǫʀ ᴄᴏᴅᴇ ➩ <a href='https://i.ibb.co/whG6Vymn/photo-2025-07-22-23-46-04.jpg'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a> [ᴄʟɪᴄᴋ ᴛᴏ ɢᴇᴛ ᴏ̨ʀ]
+💵 ᴜᴘɪ ɪᴅ ➩ <code>@sergueve</code> [ᴄʟɪᴄᴋ ᴛᴏ ᴄᴏᴘʏ]
+📸 ǫʀ ᴄᴏᴅᴇ ➩ <a href='@sergueve'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a> [ᴄʟɪᴄᴋ ᴛᴏ ɢᴇᴛ ᴏ̨ʀ]
  
 ⚜️ ᴄʜᴇᴄᴋ ʏᴏᴜʀ ᴀᴄᴛɪᴠᴇ ᴘʟᴀɴ: /myplan
 
@@ -635,8 +635,8 @@ Example:- /set_caption 📕 File Name: {filename}
  ❏ 𝟷80₹    ➠    𝟶𝟼 ᴍᴏɴᴛʜ
  ❏ 𝟹0𝟶₹    ➠    𝟷𝟸 ᴍᴏɴᴛʜ
 
-💵 ᴜᴘɪ ɪᴅ ➩ <code>ms.mihir@fam</code> [ᴄʟɪᴄᴋ ᴛᴏ ᴄᴏᴘʏ]
-📸 ǫʀ ᴄᴏᴅᴇ ➩ <a href='https://i.ibb.co/whG6Vymn/photo-2025-07-22-23-46-04.jpg'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a> [ᴄʟɪᴄᴋ ᴛᴏ ɢᴇᴛ ᴏ̨ʀ]
+💵 ᴜᴘɪ ɪᴅ ➩ <code>@sergueve</code> [ᴄʟɪᴄᴋ ᴛᴏ ᴄᴏᴘʏ]
+📸 ǫʀ ᴄᴏᴅᴇ ➩ <a href='@sergueve'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a> [ᴄʟɪᴄᴋ ᴛᴏ ɢᴇᴛ ᴏ̨ʀ]
  
 ⚜️ ᴄʜᴇᴄᴋ ʏᴏᴜʀ ᴀᴄᴛɪᴠᴇ ᴘʟᴀɴ: /myplan
 
@@ -647,3 +647,4 @@ Example:- /set_caption 📕 File Name: {filename}
 ɪꜰ ʏᴏᴜ ᴡᴀɴᴛ ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ᴏꜰ ᴛʜɪꜱ ʙᴏᴛ ɪ ᴡɪʟʟ ɢɪᴠᴇ ɪᴛs ᴏᴘᴇɴ sᴏᴜʀᴄᴇ.
 </b>
     """
+
